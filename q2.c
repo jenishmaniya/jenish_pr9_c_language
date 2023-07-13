@@ -1,0 +1,120 @@
+#include<stdio.h>
+struct student{
+	int rollno;
+	char name[50];
+	int chemistry;
+	int mathematics;
+	int physics;
+	int total;
+	int percentage;
+};
+int main(){
+
+	struct student s1;
+	struct student s2;
+	struct student s3;
+	struct student s4;
+	struct student s5;
+		
+	printf("INFO of student number 1:\n");
+	printf("Roll no=> ");
+	scanf("%d",&s1.rollno);
+	printf("Name=> ");
+	scanf("%s",&s1.name);
+	printf("Chemistry=> ");
+	scanf("%d",&s1.chemistry);
+	printf("Mathematics=>");
+	scanf("%d",&s1.mathematics);
+	printf("Physics=>");
+	scanf("%d",&s1.physics);
+	s1.total=s1.chemistry+s1.mathematics+s1.physics;
+	s1.percentage=(s1.total*100)/300;
+	printf("\n%s(%d)\n",s1.name,s1.rollno);
+	printf("Chemistry => %d\n",s1.chemistry);
+	printf("Mathematics => %d\n",s1.mathematics);
+	printf("Physics => %d\n",s1.physics);
+	printf("Total => %d\n",s1.total);
+	printf("Percentage => %d\n",s1.percentage);
+	
+	printf("INFO of student number 2:\n");
+	printf("Roll no=> ");
+	scanf("%d",&s2.rollno);
+	printf("Name=> ");
+	scanf("%s",&s2.name);
+	printf("Chemistry=> ");
+	scanf("%d",&s2.chemistry);
+	printf("Mathematics=>");
+	scanf("%d",&s2.mathematics);
+	printf("Physics=>");
+	scanf("%d",&s2.physics);
+	s2.total=s2.chemistry+s2.mathematics+s2.physics;
+	s2.percentage=(s2.total*100)/300;
+	printf("\n%s(%d)\n",s2.name,s2.rollno);
+	printf("Chemistry => %d\n",s2.chemistry);
+	printf("Mathematics => %d\n",s2.mathematics);
+	printf("Physics => %d\n",s2.physics);
+	printf("Total => %d\n",s2.total);
+	printf("Percentage => %d\n",s2.percentage);
+	
+	printf("INFO of student number 3:\n");
+	printf("Roll no=> ");
+	scanf("%d",&s3.rollno);
+	printf("Name=> ");
+	scanf("%s",&s3.name);
+	printf("Chemistry=> ");
+	scanf("%d",&s3.chemistry);
+	printf("Mathematics=>");
+	scanf("%d",&s3.mathematics);
+	printf("Physics=>");
+	scanf("%d",&s3.physics);
+	s3.total=s3.chemistry+s3.mathematics+s3.physics;
+	s3.percentage=(s3.total*100)/300;
+	printf("\n%s(%d)\n",s3.name,s3.rollno);
+	printf("Chemistry => %d\n",s3.chemistry);
+	printf("Mathematics => %d\n",s3.mathematics);
+	printf("Physics => %d\n",s3.physics);
+	printf("Total => %d\n",s3.total);
+	printf("Percentage => %d\n",s3.percentage);
+	
+	printf("INFO of student number 4:\n");
+	printf("Roll no=> ");
+	scanf("%d",&s4.rollno);
+	printf("Name=> ");
+	scanf("%s",&s4.name);
+	printf("Chemistry=> ");
+	scanf("%d",&s4.chemistry);
+	printf("Mathematics=>");
+	scanf("%d",&s4.mathematics);
+	printf("Physics=>");
+	scanf("%d",&s4.physics);
+	s4.total=s4.chemistry+s4.mathematics+s4.physics;
+	s4.percentage=(s4.total*100)/300;
+	printf("\n%s(%d)\n",s4.name,s4.rollno);
+	printf("Chemistry => %d\n",s4.chemistry);
+	printf("Mathematics => %d\n",s4.mathematics);
+	printf("Physics => %d\n",s4.physics);
+	printf("Total => %d\n",s4.total);
+	printf("Percentage => %d\n",s4.percentage);
+	
+	printf("INFO of student number 5:\n");
+	printf("Roll no=> ");
+	scanf("%d",&s5.rollno);
+	printf("Name=> ");
+	scanf("%s",&s5.name);
+	printf("Chemistry=> ");
+	scanf("%d",&s5.chemistry);
+	printf("Mathematics=>");
+	scanf("%d",&s5.mathematics);
+	printf("Physics=>");
+	scanf("%d",&s5.physics);
+	s5.total=s5.chemistry+s5.mathematics+s5.physics;
+	s5.percentage=(s5.total*100)/300;
+	printf("\n%s(%d)\n",s5.name,s5.rollno);
+	printf("Chemistry => %d\n",s5.chemistry);
+	printf("Mathematics => %d\n",s5.mathematics);
+	printf("Physics => %d\n",s5.physics);
+	printf("Total => %d\n",s5.total);
+	printf("Percentage => %d\n",s5.percentage);
+
+	return 0;	
+}
